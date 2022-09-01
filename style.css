@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ /* start header section style here  */
+ .top-header h2{
+    color: #F28484;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 20px;
+    padding: 23px 0px 15px 0px ;
+ }
+ .back-color-trans{
+    position: relative;
+ }
+ .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(110, 108, 108);
+    opacity: 0.4;
+ }
+ .back-color-trans > .bg-trans{
+    z-index: 99;
+ }
+.bg-trans{
+    padding: 0!important;
+}
+.var-padding{
+    padding: 10px 0px;
+    position: relative;
+}
+.var-padding::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: 0px;
+    left: 0;
+    background-color: rgb(115, 255, 173);
+    transition: 1s all ease-in-out;
+}
+.var-padding:hover::after{
+    width: 100%;
+}
+.hover{
+    transition: 1s all ease-in-out!important;
+}
+.hover:hover{
+    color: rgb(81, 228, 154)!important;
+}
+ .text-font{
+    background-color: rgb(49, 155, 155);
+ }
+ .bg-img{
+    background-image: url(./image/body.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+ }
+ .col-padding{
+    padding: 410px 0px 50px 0px!important;
+ }
+ .col-padding h1{
+    font-family: 'Frank Ruhl Libre', serif;
+ }
+ .col-padding {
+    color: #FF5E2C;
+    font-family: 'Frank Ruhl Libre', serif;
+ }
+  /* end header section style here  */
+
+  /* start banner secto style here  */
+  .text-head h2{
+   color: #C8521F;
+    font-family: 'Frank Ruhl Libre', serif;
+  }
+  /* end banner sxetion style here  */
+
+
+
+  /* start score section here  */
+  .text h2{
+   color: #C8521F;
+    font-family: 'Frank Ruhl Libre', serif;
+  }
+
+  .bg-img-two{
+   background-image: url('./image/lifeguard-bg-img.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+  }
+  /* end score section here  */
+
+  /* start contact section here  */
+  .bg-form{
+   background-image: url('./image/image7.jpg');
+  }
+
+  .bg-transparent{
+   background: none;
+  }
+  .bbt{
+   border-bottom: 1px solid #7e7e7e;
+  }
+  .text-color{
+   color: rgb(161, 161, 161);
+  }
+
+  .button{
+   background-color: #fb923c!important;
+  }
+  .text-color2{
+   color: #ffffff!important;
+  }
+  /* end contact section here  */
+
+  /* start about section here  */
+  .img-height{
+   max-height: 200px!important;
+   width: 100%!important;
+  }
+  /* end about section here  */
+
+  /* start gellary section here  */
+  .height{
+   height: 400px!important;
+  }
+  .text-color2{
+   color: #e2793c!important;
+  }
+  /* end gellary section here  */
+
+  /* start footer section here  */
+  i{
+   color: #ffffff!important;
+  }
+
+  .border-style1{
+   color: #ffffff;
+   border: 1px solid #ffffff;
+   border-left: none!important;
+  }
+  /* end footersection here  */

@@ -1,0 +1,18 @@
+@media all and(max-width:1200px){
+     img-height{
+         padding: 0px!important;
+        max-height: 120px!important;
+        width: 80%!important;
+    }
+    text-xl{
+        font-size: 0.70rem !important;
+        line-height: 1rem !important;
+    }
+    .img-fluid {
+        max-width: 100% !important;
+        height: 100px;
+    }
+    .pb-12 {
+        padding-bottom: 0rem!important;
+    }
+}
